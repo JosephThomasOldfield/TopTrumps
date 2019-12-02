@@ -1,4 +1,6 @@
 # Top Trumps *
+
+You can find a demo of this project at  https://josephthomasoldfield.github.io/TopTrumps/.
  
 This project was an introduction to classes and arays in JavaScript. This taught me some of the basic logic involving classes as well as methods to manipulate arrays. 
 
