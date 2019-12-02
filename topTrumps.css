@@ -1,0 +1,136 @@
+
+
+
+body {
+    background-image: url("background.jpg");
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+    color: whitesmoke;
+    text-shadow: -1px -1px 0 red, 1px -1px red, -1px 1px red, 1px 1px red;
+    font-size: 30px;
+}
+
+/* THE CARD AND THE CARD INFO */
+.playerCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 401px;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.box{
+    background: #444;
+    border: 2px solid #555;
+    justify-content: center;
+    color: whitesmoke;
+    width: 200px;
+    height: 200px; 
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+
+}
+/* BUTTONS TO ACTIVATE FUNCTIONS */
+.attri {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px; 
+    visibility: hidden;
+    
+}
+.attribox{
+    background: #444;
+    border: 5px solid #555;
+    margin: 10px;
+    width: 110px;
+    height: 40px;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 14px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+}
+.attribox:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.attribox:hover {
+background-color: #4CAF50;
+color: white;
+}
+/* INFORMATION BOX TO BE MANIPULATED */
+.text{
+    display: flex;
+    justify-content: center;
+}
+.textbox{
+    text-align: center;
+    height: 80px;
+    width: 800px;
+    background: #444;
+    color: white;
+    border: 5px solid grey;
+    font-family: monospace;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    visibility: hidden;
+    font-size: 14px;
+    
+}
+#infobox3, #infobox2 {
+    width: 50px;
+    border: none;
+    background: none;
+    color: black;
+    font-size: 30px;
+    
+    
+
+}
+#infobox3 {
+
+}
+#infobox2 {
+    
+}
+/* Name input */
+.nameinput {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+#submit {
+    background: #444;
+    border: 2px solid #555;
+    color: whitesmoke;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+#input {
+    text-align: center;
+}
+#input2 {
+    text-align: center;
+}
+
+
+
+
+
